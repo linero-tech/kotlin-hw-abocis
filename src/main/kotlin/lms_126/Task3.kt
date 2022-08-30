@@ -12,6 +12,6 @@ area = base * height /2
 val height = 5
 val base =
 val half = 2
-val area = height * base / 2
+val area = height * base / half
     println ("the area of the triangle is $area")
 }
