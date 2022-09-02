@@ -3,17 +3,22 @@ package lms_126
 fun task2() {
     /*
     this is the pseudocode
-    lenght =  12
-    width = 10
-    area = length * width
+    get >> the lenght
+    get >> the width
+
+    area == length * width
+    output area
 
       */
 
+
+ // it will be like this in code
     val length = 12
     val width = 10
     val area = length * width
 
     println("The area of the rectangle is $area")
+
 
 
 }
