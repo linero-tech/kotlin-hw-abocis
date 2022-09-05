@@ -5,6 +5,6 @@ fun task7() {
 /*
 for number is 1 to 100
  if number is even
- print (number)
+ OUTPUT number
  */
 }

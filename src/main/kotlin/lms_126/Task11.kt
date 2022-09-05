@@ -6,14 +6,14 @@ fun task11() {
 convert from Fahrenheit to celscius
 F = fahrenheit
 C = Celcius
-input F
+INPUT F
 C = (F - 32) / 1.8
 print C
 
 converting from Celcius to Fahrentheit
 F = Fahrenheit
 C = Celcius
-input C
+INPUT C
 F = (C * 1.8) + 32
 print F
 

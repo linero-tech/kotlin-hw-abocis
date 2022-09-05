@@ -9,19 +9,9 @@ unput Numu Y
 
    else  print : X is lower than Y.
  */
-    // it would look like this in cod
 
 
-    val x = 23
-    val y = 12
-    if (x > y){
-        printnln("x is greater than y")
-    }else{
-        println("x is lower than y")
+
     }
 
-
-
-
-}
 
