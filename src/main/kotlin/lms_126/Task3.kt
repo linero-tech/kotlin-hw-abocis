@@ -6,8 +6,9 @@ fun task3() {
 INPUT height
 INPUT base
 
-area = base * height /2
+area = base * height * 05
 OUTPUT area
+Input
 */
 
 }

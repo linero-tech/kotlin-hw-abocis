@@ -3,14 +3,15 @@ package lms_126
 fun task5() {
     /*
     INPUT number from 1 to 8
-    if nummer is
-     1
+    if nummer is 1 then
+
        print Monday
-     2
+
+   else if number is  2
        print Tuesday
-     3
+   else if number is  3
        print Wednesday
-     4
+    else if number is 4
        print Thursday
      5
        print Friday

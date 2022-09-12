@@ -10,6 +10,9 @@ fun task8() {
     ELIF
     number is not multiple of 3 or 5
     =>OUTPUY Qix
+
+
+    UNPUT X
      */
 
 }

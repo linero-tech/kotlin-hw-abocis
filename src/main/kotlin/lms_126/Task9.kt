@@ -2,7 +2,7 @@ package lms_126
 
 fun task9() {
     /*
-    display : welcome Put in your car
+    display : welcome Put in your card
     OUTPUT => enter your pin code
     if pinkod is correct continue
     else  output pin code not correct try again
