@@ -1,14 +1,14 @@
 package lms_126
 
 fun task3() {
-/*  the area of an triangle
+/*  the area of the triangle
 
-INPUT height
-INPUT base
+INPUT get the Height
+INPUT get the Base
 
-area = base * height * 05
-OUTPUT area
-Input
+Area = Base * Height * 05
+OUTPUT Area
+
 */
 
 }
