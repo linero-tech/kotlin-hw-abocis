@@ -1,6 +1,14 @@
 package lms_127
 
 fun task7(sentence: String): Int {
+    var result = 1
 
-    return TODO("Replace this 'TODO' with the variable 'result'. Do not erase the 'return' keyword")
+    println( "result is " + sentence.length)
+
+    return result
+}
+fun main (){
+    task7(sentence = "I love GBG")
+
+    //klart
 }
