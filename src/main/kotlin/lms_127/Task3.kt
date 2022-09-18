@@ -7,8 +7,7 @@ fun task3(radius: Double): Double {
     return result
 }
 
-fun main (){
-    task3(7.4)
+fun main (){ task3(  radius = 2.0)
 
 }
-// klart
+// klart!!

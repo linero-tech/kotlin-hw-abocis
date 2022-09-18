@@ -8,7 +8,7 @@ fun task4(base: Double, height: Double): Double {
 
 }
 fun main(){
-    task4(height = 4.0 , base = 2.0)
+    task4(height = 10.0, base = 5.0)
 
 }
-//kalrt
+//kalrt!!

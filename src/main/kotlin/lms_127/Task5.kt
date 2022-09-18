@@ -19,4 +19,4 @@ fun task5(valueForA: Int, valueForB: Int): Pair<Int, Int> {
 fun main (){
     task5(valueForA = 1, valueForB = 2)
 }
-//klart
+//klart!!

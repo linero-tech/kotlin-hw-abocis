@@ -11,4 +11,4 @@ fun task2() {
 fun main (){
     task2()
 }
-//klart
+//klart!!

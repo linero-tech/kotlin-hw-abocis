@@ -1,21 +1,48 @@
 package lms_127
 
+import lms_126.task10
+
 fun task10_1(assessments: String): Int {
+    val result = assessments.count()
 
-    return TODO("Replace this 'TODO' with the variable 'result'. Do not erase the 'return' keyword")
+    println("Result is $result")
+
+    return result
+
+
+}
+fun main (){
+    task10_1(assessments = "LMHHF")
+    task10_2(assessments ="LMFHMF" )
+    task10_3(assessments ="LMFHM")
+    task10_4(assessments = "LMFHM")
+
 }
 
-fun task10_2(assessments: String): Char {
 
-    return TODO("Replace this 'TODO' with the variable 'result'. Do not erase the 'return' keyword")
+fun task10_2 (assessments: String): Char{
+    val result = assessments[4]
+    println("result is $result")
+
+    return result
 }
+
+
+
+
 
 fun task10_3(assessments: String): Char {
+    val indexInTheMiddle =assessments.length/2
 
-    return TODO("Replace this 'TODO' with the variable 'result'. Do not erase the 'return' keyword")
+    val result = assessments[indexInTheMiddle]
+    println("result is $result")
+    return result
 }
 
 fun task10_4(assessments: String): String {
 
-    return TODO("Replace this 'TODO' with the variable 'result'. Do not erase the 'return' keyword")
+    val result = assessments.substring(0,3)
+    println("result is $result")
+
+    return result
 }

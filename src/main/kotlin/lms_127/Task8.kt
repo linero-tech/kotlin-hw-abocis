@@ -1,14 +1,22 @@
 package lms_127
 
+import kotlin.test.assertEquals
+
 fun task8(sentence: String, character: Char): Int {
 
-    println("sentence is $sentence")
-    println("character is $character")
+   val result = sentence.filter { it == character }. count()
+
+    println("result is $result")
+
+    return result
 
 
-
-    return 0
 }
 fun main (){
-    task7(  sentence ="I code in KOTLIN")
+    task8(sentence = "I code in KOTLIN", character = 'I')
+
+
+
+// klart!!
+
 }
