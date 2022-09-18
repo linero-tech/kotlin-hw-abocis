@@ -13,15 +13,15 @@ fun task10_1(assessments: String): Int {
 }
 fun main (){
     task10_1(assessments = "LMHHF")
-    task10_2(assessments ="LMFHMF" )
-    task10_3(assessments ="LMFHM")
+    task10_2(assessments = "MHFLMHH")
+    task10_3(assessments = "LMFHM")
     task10_4(assessments = "LMFHM")
 
 }
 
 
 fun task10_2 (assessments: String): Char{
-    val result = assessments[4]
+    val result = assessments[3]
     println("result is $result")
 
     return result
