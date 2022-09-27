@@ -13,7 +13,7 @@ fun task1(a: Int, b: Int): Int {
 
 }
 fun main () {
-    task1( a = 5, b = 5)
+    task1( a = 1, b = 5)
 
 
 }
