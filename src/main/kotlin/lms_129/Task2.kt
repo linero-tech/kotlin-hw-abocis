@@ -5,7 +5,7 @@ fun task2(number: Int): Boolean {
 
     for (i in 2..number / 2 )
 
-        if (number % 2  == 0 ){
+        if (number % number  == 0){
             result = true
 
             break
@@ -21,6 +21,6 @@ fun task2(number: Int): Boolean {
 }
 
 fun main (){
-    task2( number = 5)
+    task2( number = 3)
 }
 //klart
