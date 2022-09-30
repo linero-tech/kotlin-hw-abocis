@@ -9,18 +9,11 @@ fun task6(number: Int): Int {
     while ( n > 0) {
         result  = result * 10 + n % 10
         n /=10
-
-
-
     }
-
-    println(result)
-
     return result
-
 }
 fun main (){
-    task6( number = 123)
+    println( task6( number = 876))
 }
 
 

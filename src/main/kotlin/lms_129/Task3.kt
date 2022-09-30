@@ -3,16 +3,13 @@ package lms_129
 fun task3(number: Int): Int {
     var result = 1
 
-    for(i in 2..number)
-        result *=i
-
-    println ("result is $result")
-
+    for(i in 2..number) {
+        result = result * i
+    }
     return result
 }
-
 fun main(){
-    task3(number=5)
+    println( task3(number=5))
 }
 
 // klart!!
