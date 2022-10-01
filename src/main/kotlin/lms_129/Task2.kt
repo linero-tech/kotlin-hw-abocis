@@ -2,11 +2,14 @@ package lms_129
 
 fun task2(number: Int): Boolean {
     var result = true
-    if (number < 0){
+
+     if (number < 2){
         result = false
-    }else{
+
+     }else{
+
         for ( i in 2..number/2){
-          if (number % 2 == 0){
+          if (number % i == 0){
               result = false
               break
           }
@@ -15,6 +18,6 @@ fun task2(number: Int): Boolean {
     return result
 }
 fun main () {
-    println(task2( number = 5))
+    println(task2( number = 70))
 }
 //klart
