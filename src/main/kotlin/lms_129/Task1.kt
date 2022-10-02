@@ -12,10 +12,7 @@ fun task1(a: Int, b: Int): Int {
     return result
 
 }
-fun main () {
-   println( task1( a = 3, b = 3))
-
-
+fun main () {println( task1( a = 3, b = 3))
 }
 
 //klart
