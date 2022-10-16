@@ -2,5 +2,18 @@ package lms_130
 
 fun task1(items: List<Int>): Int {
 
-    return TODO("Replace this 'TODO' with the variable 'result'. Do not erase the 'return' keyword")
+
+
+    var result = if (items.isEmpty()){
+        0
+    }else {
+        items.random()
+    }
+
+
+    return result
+}
+
+fun main (){
+    println(task1(items = listOf(1,2,3,4) ))
 }
