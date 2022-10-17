@@ -4,7 +4,7 @@ import lms_131.task12
 
 fun task12_1(sells: List<Int>): String {
 
-    val days = listOf<String>("Mondays", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday")
+    val days = listOf<String>("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday")
     val maxSellVallue = sells.maxOrNull()
     val indexOfMaxSellValue = sells.indexOf(maxSellVallue)
     val result = days[indexOfMaxSellValue]
