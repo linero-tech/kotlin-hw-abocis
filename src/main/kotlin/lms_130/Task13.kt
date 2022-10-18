@@ -2,20 +2,21 @@ package lms_130
 
 fun task13_1(customers: List<String>): List<String> {
 
-    val result = customers.toSet()
+    val result = customers.distinct()
 
-    return result.toList()
+    return result
 }
 
 fun task13_2(customers: List<String>): List<String> {
     val result = mutableSetOf<String>()
     val uniqueItems = mutableListOf<String>()
 
-    customers.forEach {
-        if (it in uniqueItems){
-            result.add(it)
+
+    for (custumer in customers){
+        if (custumer in uniqueItems){
+            result.add(custumer)
         }else {
-            uniqueItems.add(it)
+            uniqueItems.add(custumer)
         }
     }
 

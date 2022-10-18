@@ -5,11 +5,11 @@ fun task4(items: List<Int>, factor: Int): List<Int> {
     var result = mutableListOf<Int>()
 
     for (number in items){
-        if (number % factor == 0){
+        if (number % factor == 0 && number !in result){
             result.add(number)
         }
     }
-    return result.toSet().toList()
+    return result
 }
 
 fun main (){
