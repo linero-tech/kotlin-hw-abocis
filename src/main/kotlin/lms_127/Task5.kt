@@ -8,8 +8,8 @@ fun task5(valueForA: Int, valueForB: Int): Pair<Int, Int> {
     a = valueForB
     b = valueForA
 
-    println("a is $valueForB")
-    println("b is $valueForA")
+    //println("a is $valueForB")
+  //  println("b is $valueForA")
 
 
 
@@ -17,6 +17,6 @@ fun task5(valueForA: Int, valueForB: Int): Pair<Int, Int> {
     return Pair(a, b)
 }
 fun main (){
-    task5(valueForA = 1, valueForB = 2)
+    println( task5(valueForA = 1, valueForB = 2))
 }
 //klart!!
