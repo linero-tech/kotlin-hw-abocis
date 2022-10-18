@@ -3,10 +3,9 @@ package lms_126
 fun task5() {
     /*
     INPUT number from 1 to 8
-    if number is 1 then
+    if number is 1
 
        print Monday
-
    else if number is  2
        print Tuesday
    else if number is  3
@@ -19,7 +18,7 @@ fun task5() {
         print Saturday
     else if number is 7
        print Sunday
-    else if number is  8
+    else
        invalid number
      */
 
