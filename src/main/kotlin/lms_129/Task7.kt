@@ -14,5 +14,5 @@ fun task7(a: Int, b: Int): Int {
 }
 
 fun main(){
-    task7(a=0, b=0)
+    task7(a=2, b=3)
 }

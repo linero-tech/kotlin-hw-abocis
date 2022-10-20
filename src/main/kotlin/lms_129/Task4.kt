@@ -6,7 +6,7 @@ fun task4(): Int {
 
     for (number in 1..1000){
         if(number % 9 == 0) {
-            result = number + result
+            result += number
         }
     }
     return result

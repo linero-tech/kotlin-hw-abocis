@@ -6,10 +6,9 @@ fun task5(sentence: String): Int {
     for (i in " $sentence ") {
         result = sentence.length
 
-        break
     }
     return result
 }
 fun main(){
-    print( task5( sentence = "I Love GBG"))
+    print( task5( sentence = "ILove GBG"))
 }

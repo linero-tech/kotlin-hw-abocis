@@ -4,7 +4,7 @@ fun task3(number: Int): Int {
     var result = 1
 
     for(i in 2..number) {
-        result = result * i
+        result *= i
     }
     return result
 }
