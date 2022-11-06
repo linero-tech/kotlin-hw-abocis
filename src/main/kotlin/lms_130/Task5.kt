@@ -7,9 +7,6 @@ fun task5(items: List<Int>): List<Int> {
     for (index in items.indices){
 
         var number = index * items.get(index)
-
-        println("${index} * ${items[index]} = $number" )
-
         result.add(number)
 
     }
