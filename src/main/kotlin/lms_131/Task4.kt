@@ -16,5 +16,5 @@ fun task4(mapa: Map<Int, Int>, value: Int): List<Int> {
     return result
 }
 fun main (){
-    task4(mapa = mapOf(1 to 100, 2 to 100, 3 to 200), (100))
+    task4(mapOf(1 to 100, 2 to 100, 3 to 200), (200))
 }
