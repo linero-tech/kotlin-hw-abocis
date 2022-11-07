@@ -5,11 +5,10 @@ fun task7(words: List<String>): Map<Int, String> {
     var result = mutableMapOf<Int, String>()
 
 
-    for (word in words.withIndex()) {
-        var value = word.value
-        var key = word.index
+    for ((index, word) in words.withIndex()) {
 
-        result[key]
+
+        result[index] = word
     }
 
     return result
