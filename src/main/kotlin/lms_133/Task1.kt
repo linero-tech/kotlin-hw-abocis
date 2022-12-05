@@ -8,7 +8,8 @@ fun remover (sentence: String):String{
     }
     return result
 }
+
 fun main (){
-    println(remover("Hello"))
+    println(remover("HELLO"))
     println(remover("I live in sweden"))
 }
