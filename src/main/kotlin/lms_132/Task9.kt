@@ -23,5 +23,5 @@ fun task9(identification: String?): Boolean {
 }
 
 fun main() {
-    println(task9(identification = "1993020334"))
+    println(task9(identification = "13"))
 }
