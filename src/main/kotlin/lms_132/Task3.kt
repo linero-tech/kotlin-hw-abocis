@@ -2,11 +2,11 @@ package lms_132
 
 fun task3(sentence: String?): String {
 
-    return if (sentence.isNullOrEmpty()) ""
+    return if (sentence.isNullOrEmpty()) "*"
     else sentence.replace(Regex("[aeiouAEIOU]"), "*")
 }
 
 
 fun main() {
-    println(task3(sentence = " I live in sweden"))
+    println(task3(sentence = " iliovessd"))
 }
