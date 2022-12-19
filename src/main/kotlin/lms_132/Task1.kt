@@ -7,6 +7,6 @@ fun task1(sentence: String?): Int {
 }
 
 fun main() {
-    println(task1(sentence = null))
+    println(task1(sentence = "abou cisse"))
 }
 
