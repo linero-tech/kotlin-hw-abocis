@@ -3,7 +3,7 @@ package lms_132
 fun task3(sentence: String?): String {
 
     return if (sentence.isNullOrEmpty()) ""
-    else sentence.replace(Regex("[aeiouAEIOU]"), "")
+    else sentence.replace(Regex("[aeiouAEIOU]"), "*")
 }
 
 
